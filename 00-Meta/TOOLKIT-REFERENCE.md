@@ -202,7 +202,7 @@ Agent files live in `00-Meta/agents/`. Load one only when the task calls for it.
 - **Exec reviewer** — operations-minded adversarial review before leadership sees a doc. `/exec-review`.
 - **Context-Broker** — finds what's loaded, what's stale, and what's been said but not saved. `/broker-audit`.
 
-Optional: if you install BMAD separately, its PM and Analyst agents can sit alongside these. Keep it to two agents per session for token budget.
+**BMAD (bundled in `_bmad/`):** John (PM) for PRDs, requirements and epics/stories, and Mary (Analyst) for market and competitive research and product briefs. You can also run the workflows: brainstorming, advanced elicitation, party mode (multi-agent), adversarial review, edge-case hunting, editorial review, and doc sharding. Say *"talk to John"*, *"run BMAD brainstorming"*, and so on. Keep it to two agents per session for token budget, and never run the full dev loop.
 
 ---
 

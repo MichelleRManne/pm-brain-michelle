@@ -163,6 +163,24 @@ Store analysis/snapshots here (or in initiative research/); raw data external wi
 
 ---
 
+## BMAD (_bmad/core)
+
+**When to wake:** The user names a BMAD agent or workflow, or the task matches one. Load at most two agents per session, and never run the full dev loop.
+
+| Trigger | File |
+|---|---|
+| "talk to John", PM agent, PRD creation, requirements discovery, epics/stories | [_bmad/core/agents/bmad-agent-pm.md](_bmad/core/agents/bmad-agent-pm.md) |
+| "talk to Mary", Analyst agent, market/competitive/domain research, product brief | [_bmad/core/agents/bmad-agent-analyst.md](_bmad/core/agents/bmad-agent-analyst.md) |
+| "brainstorm", brainstorming session | [_bmad/core/workflows/bmad-brainstorming/workflow.md](_bmad/core/workflows/bmad-brainstorming/workflow.md) |
+| "push me harder", advanced elicitation | [_bmad/core/workflows/advanced-elicitation/workflow.md](_bmad/core/workflows/advanced-elicitation/workflow.md) |
+| "party mode", multi-agent discussion | [_bmad/core/workflows/bmad-party-mode/workflow.md](_bmad/core/workflows/bmad-party-mode/workflow.md) |
+| Adversarial review, edge-case hunt, editorial review, doc sharding or indexing | `_bmad/core/tasks/` (one folder per task) |
+| "what can BMAD do" | [_bmad/core/tasks/bmad-help/workflow.md](_bmad/core/tasks/bmad-help/workflow.md) |
+
+Amelia (dev) and the BMad Master are on request only. Sam also exists as a BMAD-format file, but the canonical version is [00-Meta/agents/data-analyst-sam.md](00-Meta/agents/data-analyst-sam.md).
+
+---
+
 ## Skills (02-Methods-and-Tools/skills)
 
 Portable skill folders. To install one for Claude Code, copy it into `~/.claude/skills/` or `.claude/skills/`. Agents can follow it from this path either way.

@@ -12,7 +12,7 @@ This repository builds on frameworks and methods from product management thought
 - **PM Brain** — Andreas Kelm, [github.com/andreaskelm/pm-brain](https://github.com/andreaskelm/pm-brain) (CC BY-NC-SA 4.0). This fork's base.
 - **PM-Skills** (optional, not bundled) — Dean Peters, [github.com/deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) (CC BY-NC-SA 4.0). The structured commands (`/discover`, `/write-prd`, `/prioritize`, `/plan-roadmap`, `/strategy`, `/leadership-transition`) chain its skills when it's installed.
 - **Agent → artifact map** — adapted from PM Agent OS by Deepesh Kumar Gupta (Mar 2026), `02-Methods-and-Tools/agent-artifact-map.md`.
-- **BMAD Method** — the Sam data-analyst persona started as a BMAD-style agent file. BMAD itself is not bundled.
+- **BMAD Method** (v6.1.0 core, MIT License): [github.com/bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD). Bundled in `_bmad/`. The Sam data-analyst agent is a custom addition in BMAD format.
 
 ## Frameworks & Methods
 

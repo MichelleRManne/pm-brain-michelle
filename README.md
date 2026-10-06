@@ -10,6 +10,7 @@
 > - **PRD v2:** Assumptions & Confidence Levels comes before Goals, followed by a validation plan and decision gates (`02-Methods-and-Tools/2.3-Execution/2.3.4-PRD/`)
 > - **Hypothesis gate:** IF / THEN / BECAUSE before any PRD or roadmap, plus `[EVIDENCE]` / `[ASSUMPTION]` labeling (`PRODUCT-SENSE-RULES.md`)
 > - **Agents:** Sam (data analyst), an exec reviewer, and a context broker (`00-Meta/agents/`)
+> - **BMAD core (bundled):** John (PM) and Mary (Analyst) agents, plus brainstorming, elicitation, party mode, adversarial and edge-case review, editorial review, and doc-sharding workflows (`_bmad/`)
 > - **`analysis-rigor` skill:** source naming, grain checks, metric validity, honest nulls, and live-formula spreadsheets (`02-Methods-and-Tools/skills/analysis-rigor/`)
 > - **New-role setup kit:** phased checklist, Day 1 intake questions, smoke test, and scheduled-task prompts (`Implementation/`)
 > - **Claude-native commands:** a single source in `00-Meta/commands/`, with one-line shims in `.claude/commands/`
