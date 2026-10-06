@@ -48,6 +48,8 @@
 
 **Braindump exit criteria:** Do not duplicate. Use the canonical checklist in [PRODUCT-SENSE-RULES.md](PRODUCT-SENSE-RULES.md) (Is the braindump "sufficient"?) and the eval functions → `check_braindump_sufficient()` (see [MEMORY.md](MEMORY.md) → Rules/Evals for path). Only transition when all four items have explicit answers (assumptions named, know vs guess separated, at least one risk/second-order effect, at least one uncomfortable thought).
 
+**Hypothesis gate (for PRD, roadmap, or other major artifacts):** Once the braindump is sufficient, and before drafting a PRD or roadmap, help the user state the hypothesis as IF / THEN / BECAUSE (see [PRODUCT-SENSE-RULES.md](PRODUCT-SENSE-RULES.md) → The Hypothesis Protocol). If the THEN line has no baseline or the BECAUSE line has no evidence, say so and suggest `/discover` before drafting.
+
 **Override:** If user says "skip braindump" or "just give me the template", acknowledge, suggest a short 2-minute braindump, and proceed to execution_mode if they insist.
 
 **Next state:** execution_mode (apply framework).

@@ -46,7 +46,29 @@ When you have a product decision, problem, or opportunity:
 
 **Output:** Messy, raw, honest thinking
 
-### Is the braindump \"sufficient\"?
+## The Hypothesis Protocol (Hard Gate)
+
+Before any initiative moves from `product_sense` to `execution_mode` (for example, before writing a PRD or roadmap), the agent helps the user turn the problem statement into a formal hypothesis.
+
+### The If / Then / Because framework
+
+Every hypothesis follows this structure:
+- **IF [action/feature]:** What are we building or changing? (The input)
+- **THEN [outcome/metric]:** What measurable business or user value will change, from what baseline to what target, by when? (The output)
+- **BECAUSE [evidence/rationale]:** Why do we believe this? Link to `00-Meta/3-research-insight-log.md`, business-review data, or a customer insight. (The bridge)
+
+### Example (illustrative)
+- **IF** we add an in-app checklist for the first three setup steps...
+- **THEN** 7-day activation rises from 32% to 40% within six weeks...
+- **BECAUSE** session recordings show most new accounts stall at step 2 with no prompt to continue.
+
+**Gate rule:** If the THEN line has no baseline or the BECAUSE line has no evidence, the initiative isn't ready for a PRD. Go back to braindump or `/discover`. In any artifact that follows, label claims `[EVIDENCE]` or `[ASSUMPTION]`.
+
+**Metric check:** The THEN metric must be one the change can't move mechanically. If the action itself inflates the metric (for example, loosening a qualification rule raises "qualified leads"), pick a downstream outcome instead.
+
+---
+
+### Is the braindump "sufficient"?
 
 Before you (or the agent) leave braindump mode and move on to frameworks, check that **at least** these are true:
 

@@ -1,0 +1,44 @@
+{
+  "skill": "analysis-rigor",
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "grain-summing",
+      "prompt": "Here's a seat-level export (one row per seat, several seats per account, no person ID). How many users did account A lose?",
+      "pass": ["States the grain (one row = seat)", "Refuses to sum user counts across seats as a headcount", "Offers max-across-seats as a labeled lower bound or asks for an ID"],
+      "fail": ["Reports a summed count as people"]
+    },
+    {
+      "id": "metric-validity",
+      "prompt": "We loosened the lead-qualification rule last week and the average 'likelihood to convert' score went from 55% to 70%. Can I tell leadership the change worked?",
+      "pass": ["Asks or checks how the probability is computed", "Flags that a count-driven score rises mechanically when the rule loosens", "Recommends a downstream outcome (conversion or time-to-convert per unit) instead"],
+      "fail": ["Endorses the claim based on the probability metric"]
+    },
+    {
+      "id": "untestable-caveat",
+      "prompt": "Summarize user counts by week from this snapshot file.",
+      "context": "The file has no user identifier.",
+      "pass": ["Does not assert double counting as fact", "States that duplicates can't be tested without an ID, or runs an indirect test"],
+      "fail": ["Claims the counts are 'pairs, not people' without evidence from this file"]
+    },
+    {
+      "id": "underpowered-null",
+      "prompt": "None of the lead-volume buckets separated churned vs. retained accounts (n=200). Write the headline.",
+      "pass": ["Phrases the null with a detectable effect size", "Does not write 'volume has no effect'"],
+      "fail": ["States there is no relationship"]
+    },
+    {
+      "id": "name-the-source",
+      "prompt": "Reconcile my median rate with yours.",
+      "context": "Two near-identical exports and a merged workbook are in play.",
+      "pass": ["Names each file, tab, and column", "Labels one PRIMARY and one REFERENCE ONLY", "Reports a match rate against the user's source of truth"],
+      "fail": ["Uses 'your tab' or 'the CSV' without naming it"]
+    },
+    {
+      "id": "missing-means-resolved",
+      "prompt": "These accounts show only one open ticket each. Is our support team under-resourced?",
+      "pass": ["Checks status history before concluding anything", "Considers that the tickets may already be resolved"],
+      "fail": ["Concludes under-resourcing from the open count alone"]
+    }
+  ]
+}

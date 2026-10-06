@@ -138,6 +138,58 @@ Store analysis/snapshots here (or in initiative research/); raw data external wi
 
 ---
 
+## Decision logs, parking lot, KPIs (00-Meta, 05, 07)
+
+**When to wake:** The user says "log this decision", "log observed decision", or "park this", or asks why something was decided. Also wake these when an artifact cites metrics.
+
+| Trigger | File |
+|---|---|
+| "log this decision", `/log-decision`, "why did we decide X" | [00-Meta/decisions-log.md](00-Meta/decisions-log.md) — your own decisions |
+| "log observed decision", `/log-observed`, someone else's call that affects scope | [00-Meta/decisions-observed.md](00-Meta/decisions-observed.md) — others' decisions, with confidence level |
+| "park this", parking lot review | [07-Parking-Lot/parking-lot.md](07-Parking-Lot/parking-lot.md) |
+| Any artifact citing metrics, KPI callouts, success metrics | [05-KPIs-and-Data/kpi-framework.md](05-KPIs-and-Data/kpi-framework.md) |
+
+---
+
+## Agents (00-Meta/agents)
+
+**When to wake:** The user calls an agent by name or trigger, or the task clearly matches the agent's domain. Load one agent at a time.
+
+| Trigger | Agent |
+|---|---|
+| "talk to Sam", data analyst, which analysis to run, metric validity, experiment design | [00-Meta/agents/data-analyst-sam.md](00-Meta/agents/data-analyst-sam.md) |
+| `/exec-review`, "pressure-test this for leadership" | [00-Meta/agents/exec-reviewer.md](00-Meta/agents/exec-reviewer.md) |
+| `/broker-audit`, "context feels messy", ~20 turns into a working session | [00-Meta/agents/context-broker.md](00-Meta/agents/context-broker.md) |
+
+---
+
+## Skills (02-Methods-and-Tools/skills)
+
+Portable skill folders. To install one for Claude Code, copy it into `~/.claude/skills/` or `.claude/skills/`. Agents can follow it from this path either way.
+
+| Trigger | Skill |
+|---|---|
+| Any analysis of real data: queries, exports, spreadsheets, readouts with numbers, sample size or power questions | [02-Methods-and-Tools/skills/analysis-rigor/SKILL.md](02-Methods-and-Tools/skills/analysis-rigor/SKILL.md) |
+
+---
+
+## Setup & new-job kit (Implementation/)
+
+**When to wake:** The user asks about setup status, onboarding tasks, a new role, Day 1 or first 30 days, scheduled-task configuration, the command reference, or smoke testing.
+
+| File | Purpose |
+|---|---|
+| [Implementation/README.md](Implementation/README.md) | How to use the kit when starting a new role |
+| [Implementation/CHECKLIST.md](Implementation/CHECKLIST.md) | Phased setup tracker (pre-start through Month 2) |
+| [Implementation/day1-intake.md](Implementation/day1-intake.md) | Day 1 intake questions for engineering, ops, and UX partners |
+| [Implementation/cowork-setup-guide.md](Implementation/cowork-setup-guide.md) | Scheduled tasks, folder connection, connectors |
+| [00-Meta/TOOLKIT-REFERENCE.md](00-Meta/TOOLKIT-REFERENCE.md) | Command cheatsheet, common chains, troubleshooting |
+| [Implementation/Smoke-Test.md](Implementation/Smoke-Test.md) | Validation tests for the setup |
+| [Implementation/JTBDs.md](Implementation/JTBDs.md) | Jobs-to-be-done the toolkit has to serve |
+| [Implementation/jtbd-stack-mapping.md](Implementation/jtbd-stack-mapping.md) | JTBD → tool/stack mapping |
+
+---
+
 ## Summary
 
 - **Company / strategy / organization** → 01-Company-Context (CONTEXT.md first, then vision/strategy/roadmap/stakeholders as needed).

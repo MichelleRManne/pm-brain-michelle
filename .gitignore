@@ -44,3 +44,30 @@ Thumbs.db
 *~
 .vscode/settings.json
 .idea/
+# ============================================
+# Employer content guard (always on)
+# ============================================
+# This repo is a TOOLKIT. Company-specific material (filled-in context,
+# initiative docs, raw notes, data exports) belongs in a separate private
+# work repo or on the employer's systems, not on a personal GitHub.
+# These rules catch the most common leaks.
+
+# Raw notes and session state
+.incoming/*
+!.incoming/README.md
+checkpoints/session-*.md
+
+# Data files and office docs (keep data out of git entirely)
+*.xlsx
+*.xls
+*.csv
+!00-Meta/0.3-Product-Judgment-Test/product-judgment-test-calculator.csv
+*.docx
+*.pptx
+*.rtf
+*.pdf
+
+# Claude Code local state
+.claude/worktrees/
+.claude/settings.local.json
+.claude/launch.json

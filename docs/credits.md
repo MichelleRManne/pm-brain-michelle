@@ -7,6 +7,13 @@ This repository builds on frameworks and methods from product management thought
 - **Ole:** Mentorship, inspiration, deep talks, and the voice behind the assistant’s tone.
 - **Stephanie:** Beta-testing and assumption validation.
 
+## Fork additions (Michelle Manne)
+
+- **PM Brain** — Andreas Kelm, [github.com/andreaskelm/pm-brain](https://github.com/andreaskelm/pm-brain) (CC BY-NC-SA 4.0). This fork's base.
+- **PM-Skills** (optional, not bundled) — Dean Peters, [github.com/deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) (CC BY-NC-SA 4.0). The structured commands (`/discover`, `/write-prd`, `/prioritize`, `/plan-roadmap`, `/strategy`, `/leadership-transition`) chain its skills when it's installed.
+- **Agent → artifact map** — adapted from PM Agent OS by Deepesh Kumar Gupta (Mar 2026), `02-Methods-and-Tools/agent-artifact-map.md`.
+- **BMAD Method** — the Sam data-analyst persona started as a BMAD-style agent file. BMAD itself is not bundled.
+
 ## Frameworks & Methods
 
 ### Continuous Discovery Habits

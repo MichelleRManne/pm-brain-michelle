@@ -4,6 +4,20 @@
 
 > **Your external product management brain-in-code. Single source of truth = latest commit.**
 
+> **About this fork.** This is Michelle Manne's working fork of [PM Brain](https://github.com/andreaskelm/pm-brain) by Andreas Kelm. It adds the parts I built while using it as a product leader. Everything below the next horizontal rule is the original PM Brain README.
+>
+> - **Two decision logs:** `/log-decision` for my own decisions and `/log-observed` for other people's, with a confidence level (`00-Meta/decisions-log.md`, `00-Meta/decisions-observed.md`)
+> - **PRD v2:** Assumptions & Confidence Levels comes before Goals, followed by a validation plan and decision gates (`02-Methods-and-Tools/2.3-Execution/2.3.4-PRD/`)
+> - **Hypothesis gate:** IF / THEN / BECAUSE before any PRD or roadmap, plus `[EVIDENCE]` / `[ASSUMPTION]` labeling (`PRODUCT-SENSE-RULES.md`)
+> - **Agents:** Sam (data analyst), an exec reviewer, and a context broker (`00-Meta/agents/`)
+> - **`analysis-rigor` skill:** source naming, grain checks, metric validity, honest nulls, and live-formula spreadsheets (`02-Methods-and-Tools/skills/analysis-rigor/`)
+> - **New-role setup kit:** phased checklist, Day 1 intake questions, smoke test, and scheduled-task prompts (`Implementation/`)
+> - **Claude-native commands:** a single source in `00-Meta/commands/`, with one-line shims in `.claude/commands/`
+> - **Employer content guard:** `.gitignore` rules that keep raw notes, sessions, and data files out of a personal repo
+> - **Reference specs:** an extensible enterprise agent platform (`04-Initiatives/4.2-enterprise-agent-platform/`)
+>
+> Start with `CLAUDE.md` (the working agreement) and `00-Meta/TOOLKIT-REFERENCE.md` (the cheatsheet). Licensed CC BY-NC-SA 4.0, the same as upstream.
+
 <p align="center"><img src="assets/pm-brain-hero.png" alt="From messy thinking to structured insight" width="560"></p>
 
 You have probably felt this before:

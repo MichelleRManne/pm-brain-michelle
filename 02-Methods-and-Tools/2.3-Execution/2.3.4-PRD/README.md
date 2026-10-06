@@ -61,13 +61,13 @@ Use this framework and template to create product requirements documents that br
 
 ### 1. Read the Golden Rule
 
-**See:** [`/PRODUCT-SENSE-RULES.md`](../../../../PRODUCT-SENSE-RULES.md)
+**See:** [`/PRODUCT-SENSE-RULES.md`](../../../PRODUCT-SENSE-RULES.md)
 
 **The rule:** Braindump before structure. Frameworks organize thinking—they don't create it.
 
 ### 2. Braindump First (15-20 min)
 
-**Use prompts from:** [`2-product-sense-prompts.md`](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before Writing a PRD" section.
+**Use prompts from:** [`2-product-sense-prompts.md`](../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before Writing a PRD" section.
 
 **Quick start (top 4-5 questions):**
 - Who is this really for? (actual human, not persona)
@@ -93,8 +93,17 @@ Review the framework in `1-prd-framework.md` to understand PRD principles and wh
 - Use `2-prd-template.md` for standard product requirements
 - Use `3-prd-jtbd-template.md` when your work is centered around customer jobs
 
-### Step 3: Structure Your Thinking
-Start with section 3 (Goals & Success Metrics) then work outward - but use your braindump to inform each section
+### Step 3: Structure Your Thinking (Assumptions First)
+
+**CRITICAL FIRST STEP:** Before filling requirements, go to **Section 3: Assumptions & Confidence Levels** in your template.
+
+- **What We Know (Validated):** Copy facts from your Opportunity Assessment with sources and confidence levels
+- **Key Assumptions:** Surface beliefs about the problem, solution, and business impact. Assign confidence levels (High/Med/Low) based on validation work.
+- **Validation Plan:** Identify what you'll test post-launch if you haven't fully validated pre-launch
+
+**Why first?** This forces you to be explicit about what you're betting on. It prevents treating assumptions as facts in later sections.
+
+Then start with section 4 (Goals & Success Metrics) and work outward—but use your assumptions and braindump to inform each section.
 
 ### Step 4: Quality Checks During Creation
 **Quality checks happen automatically during creation** - The agent will scan for common red flags (missing success metrics, vague requirements, no user context, etc.) and point them out as you create your PRD. See "Quick Quality Checks" section in `1-prd-framework.md` for the full list.

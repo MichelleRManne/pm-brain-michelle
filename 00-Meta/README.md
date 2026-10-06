@@ -17,6 +17,26 @@ Use `00-Meta/` for:
 
 ---
 
+## Workflow Navigator (the router)
+
+Use this table to find the right agent and command for what you need right now.
+
+| What you're thinking | Agent | Command | Purpose |
+| :--- | :--- | :--- | :--- |
+| **"I have a messy thought"** | PM Brain Coach | `/braindump` | Guide raw thinking before structure. |
+| **"Is this a hard problem, and will leadership buy it?"** | Exec reviewer | `/exec-review` | Pressure-test from an operations-minded exec's view. |
+| **"I need requirements"** | PM Brain Coach | `/write-prd` | Hypothesis gate, then the PRD with Assumptions & Confidence first. |
+| **"What does the data say?"** | Sam (data analyst) | "talk to Sam" | Pick the method; apply `analysis-rigor`. |
+| **"What does the market say?"** | PM Brain Coach | `/discover` | Discovery loop and research synthesis. |
+| **"Someone else decided something that affects me"** | — | `/log-observed` | Capture it before the thread disappears. |
+| **"My context feels messy"** | Context-Broker | `/broker-audit` | Trim the session and check what's saved. |
+| **"I'm ready to build"** | — | `02-Methods-and-Tools/0-Template-Structure/implementation-brief.md` | Hand off from PRD to builder in atomic tasks. |
+| **"I'm stuck"** | PM Brain Coach | `/unstuck` | Diagnose blocks and find a path forward. |
+
+Decision logs: `decisions-log.md` (your own decisions) and `decisions-observed.md` (others' decisions, with a confidence level).
+
+---
+
 ## Modes & Privacy
 
 Which content is tracked in git depends on your mode (Public / Private / Team).

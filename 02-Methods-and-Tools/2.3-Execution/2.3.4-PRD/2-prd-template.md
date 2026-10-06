@@ -38,13 +38,82 @@
 
 ---
 
-## 3. Goals & Success Metrics
+## 3. Assumptions & Confidence Levels
 
-### 3.1 Business Goals
+> **Why this matters:** Every PRD is built on beliefs about users, the problem, and the market. This section surfaces those beliefs explicitly, assigns confidence levels based on validation work, and identifies what still needs to be tested. This prevents requirements from treating assumptions as facts.
+>
+> **Instructions:** Link to your `opportunity-assessment.md` for the full discovery evidence. Copy validated facts and assumptions here, note confidence levels (High/Med/Low), and call out what you're betting on that you'll validate post-launch.
+
+### 3.1 What We Know (Validated)
+
+**From Discovery & Opportunity Assessment:**
+- **[Fact 1]**: [What we validated] — Source: [interview/data/research link], Confidence: **High**
+- **[Fact 2]**: [What we validated] — Source: [interview/data/research link], Confidence: **High**
+- **[Fact 3]**: [What we validated] — Source: [interview/data/research link], Confidence: **High**
+
+**Links to discovery work:**
+- [Link to opportunity-assessment.md]
+- [Link to 00-Meta/3-research-insight-log.md]
+- [Link to user interview synthesis]
+
+### 3.2 Key Assumptions (Confidence Level)
+
+**About the Problem:**
+- **[Assumption 1]**: [What we believe to be true about the problem]
+  - **Confidence:** [High/Med/Low]
+  - **Why we believe this:** [Evidence, prior work, or reasoning]
+  - **Risk if wrong:** [What happens if this assumption breaks]
+  - **How we'll validate:** [Method, post-launch or pre-launch]
+  - **Timeline:** [When we'll test this]
+
+- **[Assumption 2]**: [What we believe about user behavior or motivation]
+  - **Confidence:** [High/Med/Low]
+  - [Similar structure]
+
+**About the Solution:**
+- **[Assumption 3]**: [What we believe users will do with this feature]
+  - **Confidence:** [High/Med/Low]
+  - [Similar structure]
+
+- **[Assumption 4]**: [What we believe about adoption or usage patterns]
+  - **Confidence:** [High/Med/Low]
+  - [Similar structure]
+
+**About Business Impact:**
+- **[Assumption 5]**: [What we believe about business outcome if metrics move]
+  - **Confidence:** [High/Med/Low]
+  - [Similar structure]
+
+### 3.3 Confidence Levels Explained
+
+| Level | Meaning | Example |
+|-------|---------|----------|
+| **High** | Validated through research, data, or prior shipping. Low risk if we're wrong—we have contingencies. | "Users hate manual handoffs" — 47 interviews confirm this. |
+| **Med** | Some evidence but not conclusive. We've tested with a subset or heard it multiple times but haven't observed at scale. | "Users will adopt if we make it frictionless" — we've heard this, but haven't measured adoption at scale. |
+| **Low** | Educated guess or extrapolation. We haven't tested directly. High risk if wrong. | "This will increase revenue by 20%" — we're modeling, not measuring yet. |
+
+### 3.4 Validation Plan
+
+**What we'll test post-launch (or pre-launch if time allows):**
+
+| Assumption | Validation Method | Owner | Timeline | Success Criteria |
+|---|---|---|---|---|
+| [Assumption] | [Interview / analytics / experiment / beta feedback] | [Owner] | [When we'll test] | [What "validated" looks like] |
+| [Assumption] | [Method] | [Owner] | [Timeline] | [Success criteria] |
+
+**Decision gates:**
+- **If [Assumption 1] proves false:** [Pivot plan or contingency]
+- **If [Assumption 2] is only partially true:** [What we'll do instead]
+
+---
+
+## 4. Goals & Success Metrics
+
+### 4.1 Business Goals
 **Primary Goal:** [Main business objective]  
 **Secondary Goals:** [Supporting objectives]
 
-### 3.2 Success Metrics
+### 4.2 Success Metrics
 **Key Metrics:**
 - [Metric 1]: [Current baseline] → [Target] by [Date]
 - [Metric 2]: [Current baseline] → [Target] by [Date]
@@ -58,9 +127,9 @@
 
 ---
 
-## 4. Solution Overview
+## 5. Solution Overview
 
-### 4.1 Proposed Solution
+### 5.1 Proposed Solution
 [Describe the solution at a conceptual level - avoid detailed specifications]
 
 **Key Principles:**
@@ -68,7 +137,7 @@
 - [Principle 2]
 - [Principle 3]
 
-### 4.2 Key User Flows
+### 5.2 Key User Flows
 *Main paths users will take*
 
 **Flow 1: [Primary Flow Name]**
@@ -84,7 +153,7 @@
 **Flow 3: [Edge Case Flow]**
 [How edge cases are handled]
 
-### 4.3 Core Requirements
+### 5.3 Core Requirements
 
 **Must Have (P0):**
 - **[Requirement 1]**
@@ -107,7 +176,7 @@
 
 ---
 
-## 5. Detailed Features & Acceptance Criteria
+## 6. Detailed Features & Acceptance Criteria
 
 ### Feature 1: [Feature Name]
 
@@ -139,23 +208,23 @@
 
 ---
 
-## 6. Scope & Constraints
+## 7. Scope & Constraints
 
-### 6.1 In Scope (This Version)
+### 7.1 In Scope (This Version)
 - [Feature/component 1]
 - [Feature/component 2]
 - [Feature/component 3]
 
-### 6.2 Out of Scope (Explicitly NOT Doing)
+### 7.2 Out of Scope (Explicitly NOT Doing)
 - [Feature 1]: [Why not - technical/business/priority reason]
 - [Feature 2]: [Why not]
 - [Feature 3]: [Why not]
 
-### 6.3 Future Considerations
+### 7.3 Future Considerations
 - [Feature that may be added later]: [Conditions for adding]
 - [Enhancement]: [When to consider]
 
-### 6.4 Constraints
+### 7.4 Constraints
 **Technical:** [Technology limitations, API constraints, platform restrictions]  
 **Timeline:** [Schedule constraints, deadlines]  
 **Resources:** [Team capacity, budget limitations]  
@@ -164,51 +233,51 @@
 
 ---
 
-## 7. User Experience & Interface Requirements
+## 8. User Experience & Interface Requirements
 
-### 7.1 User Interface Requirements
+### 8.1 User Interface Requirements
 - [UI requirement 1]: [Description]
 - [UI requirement 2]: [Description]
 
-### 7.2 User Experience Principles
+### 8.2 User Experience Principles
 - [Principle 1]: [How it applies]
 - [Principle 2]: [How it applies]
 
-### 7.3 Accessibility Requirements
+### 8.3 Accessibility Requirements
 - [Accessibility requirement 1]
 - [Accessibility requirement 2]
 
 ---
 
-## 8. Technical Specifications
+## 9. Technical Specifications
 
-### 8.1 Architecture Overview
+### 9.1 Architecture Overview
 [High-level system architecture - link to detailed technical docs]
 
-### 8.2 Data Requirements
+### 9.2 Data Requirements
 - **Data Sources:** [Where data comes from]
 - **Data Storage:** [Where data is stored]
 - **Data Processing:** [How data is processed]
 - **Data Privacy:** [Privacy considerations]
 
-### 8.3 Integration Requirements
+### 9.3 Integration Requirements
 - [Integration 1]: [What it integrates with, how]
 - [Integration 2]: [What it integrates with, how]
 
-### 8.4 Performance Requirements
+### 9.4 Performance Requirements
 - [Performance metric 1]: [Target/threshold]
 - [Performance metric 2]: [Target/threshold]
 
-### 8.5 Security & Compliance
+### 9.5 Security & Compliance
 - [Security requirement 1]
 - [Security requirement 2]
 - [Compliance requirement 1]
 
 ---
 
-## 9. Dependencies & Risks
+## 10. Dependencies & Risks
 
-### 9.1 Dependencies
+### 10.1 Dependencies
 **Internal:**
 - [Team/System]: [What's needed and by when]
 
@@ -218,7 +287,7 @@
 **Technical:**
 - [Technology/Infrastructure]: [What's needed]
 
-### 9.2 Key Risks & Mitigation
+### 10.2 Key Risks & Mitigation
 **Risk 1: [Risk Description]**
 - **Probability:** [High/Med/Low]
 - **Impact:** [High/Med/Low]
@@ -230,9 +299,9 @@
 
 ---
 
-## 10. Implementation Plan
+## 11. Implementation Plan
 
-### 10.1 High-Level Timeline
+### 11.1 High-Level Timeline
 **Phase 1: [Phase Name]** - [Timeframe]
 - [Milestone 1]
 - [Milestone 2]
@@ -248,12 +317,12 @@
 - [Milestone 2]
 - [Deliverable]
 
-### 10.2 Development Approach
+### 11.2 Development Approach
 - [Agile/Sprint approach, Waterfall, etc.]
 - [Sprint duration, release cadence]
 - [Testing strategy]
 
-### 10.3 Go-to-Market Plan
+### 11.3 Go-to-Market Plan
 **Launch Strategy:** [How we'll roll out]
 - [Beta/Alpha testing]
 - [Phased rollout]
@@ -265,15 +334,15 @@
 
 ---
 
-## 11. Testing & Validation
+## 12. Testing & Validation
 
-### 11.1 Testing Strategy
+### 12.1 Testing Strategy
 **Unit Tests:** [What will be unit tested]  
 **Integration Tests:** [What will be integration tested]  
 **User Acceptance Tests:** [UAT criteria]  
 **Performance Tests:** [Performance testing approach]
 
-### 11.2 Validation Plan
+### 12.2 Validation Plan
 **Validation Method:** [How we'll validate success]
 - [Method 1]: [What we'll measure]
 - [Method 2]: [What we'll measure]
@@ -284,9 +353,9 @@
 
 ---
 
-## 12. Post-Launch Plan
+## 13. Post-Launch Plan
 
-### 12.1 Monitoring & Metrics
+### 13.1 Monitoring & Metrics
 **Key Metrics to Track:**
 - [Metric 1]: [How to measure, dashboard link]
 - [Metric 2]: [How to measure, dashboard link]
@@ -294,7 +363,7 @@
 **Alert Thresholds:**
 - [Alert condition]: [Action to take]
 
-### 12.2 Iteration Plan
+### 13.2 Iteration Plan
 **Feedback Collection:** [How we'll gather user feedback]
 - [Method 1]
 - [Method 2]
@@ -310,42 +379,42 @@
 
 ---
 
-## 13. Open Questions & Decisions Needed
+## 14. Open Questions & Decisions Needed
 
-### 13.1 Open Questions
+### 14.1 Open Questions
 - ❓ **[Question 1]:** [Owner, decision date]
 - ❓ **[Question 2]:** [Owner, decision date]
 
-### 13.2 Decisions Needed
+### 14.2 Decisions Needed
 - [ ] **[Decision 1]:** [Context, options, recommendation]
 - [ ] **[Decision 2]:** [Context, options, recommendation]
 
 ---
 
-## 14. Appendix
+## 15. Appendix
 
-### 14.1 Research & Data
+### 15.1 Research & Data
 - [Link to user research]
 - [Link to competitive analysis]
 - [Link to data analysis]
 
-### 14.2 Wireframes/Mockups
+### 15.2 Wireframes/Mockups
 - [Link to design assets]
 - [Link to prototypes]
 
-### 14.3 Technical Specifications
+### 15.3 Technical Specifications
 - [Link to detailed technical documentation]
 - [Link to API specifications]
 - [Link to database schema]
 
-### 14.4 Related Documents
+### 15.4 Related Documents
 - [Link to opportunity-assessment.md]
 - [Link to roadmap.md]
 - [Link to decisions.md]
 
 ---
 
-## 15. Document History
+## 16. Document History
 
 | Date | Version | Changes | Author |
 |------|---------|---------|--------|
@@ -354,7 +423,7 @@
 
 ---
 
-## 16. Stakeholder Sign-off
+## 17. Stakeholder Sign-off
 
 **Product Manager:** [ ] Reviewed and Approved - [Name, Date]  
 **Engineering Lead:** [ ] Reviewed and Approved - [Name, Date]  
@@ -371,15 +440,15 @@
 
 ---
 
-## 17. Product Sense Hooks (Strongly Recommended)
+## 18. Product Sense Hooks (Strongly Recommended)
 
 Before you treat this PRD as “done”, run a quick product-sense pass and, if it’s a meaningful initiative, capture it in your personal logs.
 
 **Where to reflect/log:**
 - Quick check-in: `00-Meta/daily-log-*.md`
 - Bigger bets / roadmap-shaping work:
-  - Decision context in `00-Meta/prioritization-decision-log.md`
-  - Key research learnings in `00-Meta/research-insight-log.md`
+  - Decision context in `00-Meta/2-prioritization-decision-log.md`
+  - Key research learnings in `00-Meta/3-research-insight-log.md`
 
 **Prompts to sanity-check this PRD:**
 - Who specifically is this for, and what job are they really hiring this for?

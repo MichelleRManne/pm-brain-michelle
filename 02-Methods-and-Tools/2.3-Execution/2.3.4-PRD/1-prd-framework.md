@@ -61,6 +61,22 @@ Before writing, ensure you have:
 - **Success metrics**: Defined measurement approach and baselines
 - **Stakeholder buy-in**: Leadership approval and resource allocation
 
+## Critical: Assumptions & Confidence Levels
+
+**Every PRD is built on assumptions.** Section 3 of the PRD template makes these explicit.
+
+**Before writing requirements:**
+1. **Identify what you know vs. what you're guessing** — Copy validated facts from your Opportunity Assessment with sources (research, data, prior shipping)
+2. **Assign confidence levels** — High (validated), Med (some evidence), or Low (educated guess)
+3. **Plan validation** — What will you test post-launch if you haven't fully validated?
+4. **Set decision gates** — If [assumption] proves false, what's the pivot plan?
+
+**Why this matters:** Without explicit assumptions, you'll write requirements that treat beliefs as facts. This section forces honesty about risk.
+
+**Link to discovery work:** Section 3.1 should reference your Opportunity Assessment (which has the full "What We Know" and confidence levels). The PRD is the summary; the Opp Assess is the evidence.
+
+---
+
 ## PRD Structure
 
 ### Minimal Viable PRD (2-3 pages)
@@ -88,10 +104,11 @@ For platform features or high-risk initiatives:
 
 ### Phase 1: Foundation (1-2 days)
 1. **Review inputs**: Opportunity doc, validation results, JTBD
-2. **Define success**: Write section 3 (Goals & Metrics) first
-3. **Draft executive summary**: 1-paragraph version of the PRD
-4. **Map user flows**: Sketch primary and edge-case paths
-5. **Prioritize requirements**: Tag as P0 (must), P1 (should), P2 (could)
+2. **Surface assumptions first**: Section 3 (Assumptions & Confidence) - identify what you know vs. guess
+3. **Define success**: Write section 4 (Goals & Metrics) next
+4. **Draft executive summary**: 1-paragraph version of the PRD
+5. **Map user flows**: Sketch primary and edge-case paths
+6. **Prioritize requirements**: Tag as P0 (must), P1 (should), P2 (could)
 
 ### Phase 2: Detail (2-3 days)
 1. **Write acceptance criteria**: Given/When/Then for each requirement
@@ -198,7 +215,7 @@ For platform features or high-risk initiatives:
 
 **Missing constraints:**
 - ❌ No mention of technical, timeline, or budget limits
-- ✅ Explicit constraints in section 6.4
+- ✅ Explicit constraints in section 7.4
 
 **Ignoring edge cases:**
 - ❌ Only documenting happy-path flows
@@ -218,7 +235,7 @@ For platform features or high-risk initiatives:
 ### Post-Launch
 - **First 2 weeks**: Track success metrics daily; update monitoring section
 - **First quarter**: Assess metrics against targets; document learnings
-- **Iteration**: Add post-launch findings to section 12 (Post-Launch Plan)
+- **Iteration**: Add post-launch findings to section 13 (Post-Launch Plan)
 - **Archive**: When initiative complete, move to archive with final results
 
 ## Integration with Other Frameworks

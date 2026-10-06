@@ -1,8 +1,14 @@
 {
-  "version": "3.4.0",
-  "lastUpdated": "2026-02-27T00:00:00Z",
+  "version": "4.0.0-mm",
+  "lastUpdated": "2026-10-06T00:00:00Z",
   "schemaVersion": "1.0",
   "changelog": [
+    {
+      "version": "4.0.0-mm",
+      "date": "2026-10-06",
+      "type": "major",
+      "summary": "Michelle Manne fork. Added observed-decision log and /log-observed; decision log + /log-decision; PRD v2 with Assumptions & Confidence first; IF/THEN/BECAUSE hypothesis gate wired into ORCHESTRATION; evidence labeling; Sam, exec-reviewer and context-broker agents; analysis-rigor skill with references and eval scenarios; Claude-native commands with a single source in 00-Meta/commands and shims in .claude/commands; new-role setup kit in Implementation/; KPI framework template; parking lot, weekly ops and .incoming scaffolding; employer content guard in .gitignore; enterprise agent platform reference specs."
+    },
     {
       "version": "3.4.0",
       "date": "2026-02-27",
@@ -79,11 +85,18 @@
     "evalSystem": true,
     "orchestrationFile": true,
     "memoryManifest": true,
-    "platformAdapters": ["CLAUDE.md"],
+    "platformAdapters": [
+      "CLAUDE.md"
+    ],
     "contextHealth": true,
     "checkpoints": true,
     "agentInstructions": {
-      "states": ["product_sense", "execution_mode", "meta_reflection", "conversation"],
+      "states": [
+        "product_sense",
+        "execution_mode",
+        "meta_reflection",
+        "conversation"
+      ],
       "evalCheckpoints": 4,
       "forAgentsSections": 14
     },
